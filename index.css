@@ -123,6 +123,11 @@ img {
 
 /*Section 3 gallery styling*/
 
+.section-3 .gallery img, .section-3 gallery a {
+  width:100%;
+  height:100%;
+}
+
 .section-3 .gallery {
   display:grid;
   grid-template-columns: repeat(5, 1fr);

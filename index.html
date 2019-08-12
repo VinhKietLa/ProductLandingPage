@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Shojumaru&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="simplelightbox.min.css">
     <title>Strong K - Unlock your potential</title>
 
   </head>
@@ -58,5 +59,12 @@
       </div>
     </section>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="simple-lightbox.min.js"></script>
+  <script>
+    $(function() {
+      const $gallery = $('.gallery a').simpleLightbox();
+    });
+  </script>
   </body>
 </html>
