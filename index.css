@@ -58,3 +58,65 @@ img {
 .navbar .nav a:hover {
   color:red;
 }
+
+/*Section 1 styling*/
+
+.section-1 {
+  margin: 2rem 0;
+}
+
+.section-1 .container {
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-1 h1 {
+  font-size: 4rem;
+}
+.section-1 p {
+  margin: 1rem 0 ;
+}
+.btn {
+  display:inline-block;
+  background-color: black;
+  color:white;
+  padding: 0.8rem 1.5rem;
+  cursor: pointer;
+  font-size: 1.1rem;
+  border-radius: 30px;
+}
+.btn:hover {
+  background-color: grey;
+}
+
+/*Section 2 styling*/
+
+.section-2 {
+  position: relative;
+  background: url('img/model.jpg') no-repeat center/cover;
+  height: 600px;
+}
+.overlay {
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.section-b-inner {
+  color: white;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  max-width: 860px;
+  padding: 5rem;
+}
