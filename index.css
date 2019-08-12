@@ -27,7 +27,7 @@ img {
 
 /*Nav Bar styling*/
 .container {
-  max-width: 1100px;
+  max-width: 1200px;
   margin:auto;
   overflow:hidden;
   padding: 0 2rem;
@@ -43,6 +43,12 @@ img {
   display:grid;
   grid-template-columns: repeat(2, 1fr);
 }
+.container .rdxlogo {
+  width:300px;
+  height:200px
+}
+
+
 .navbar .logo {
   font-size: 2rem;
 }
