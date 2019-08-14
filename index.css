@@ -104,7 +104,6 @@ img {
 .btn:visited {
   color:white;
 }
-
 .purchase {
   text-align: center;
   margin-top: 3rem;
@@ -153,7 +152,6 @@ img {
 .section-3 .gallery {
   display:grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: 350px 350px;
 }
 
 .section-3 .gallery a:first-child {
@@ -202,4 +200,93 @@ img {
   border-radius: 5%;
   background-color: black;
   color: white;
+}
+
+
+/*Media queries*/
+@media(max-width: 375px){
+
+  /*NAV MOBILE STYLESs*/
+
+.navbar {
+  font-size: 0.9rem;
+}
+
+.navbar .container {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .rdxlogo {
+  width:120px;
+  height:120px
+}
+.navbar .nav {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/*SECTION 1 MOBILE STYLESs*/
+.beltInfo {
+  text-align: center;
+}
+
+.section-1 {
+  margin: 0.5rem 0;
+}
+.section-1 .container {
+  display:grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.section-1 h1 {
+  font-size: 2rem;
+}
+.section-1 p {
+  font-size: 0.7rem;
+}
+.purchase {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.purchase .btn {
+  margin-top: 0.5rem;
+}
+
+/*SECTION 2 MOBILE STYLESs*/
+.section-2 {
+  height: 300px;
+}
+.section-b-inner {
+  font-size: 0.8rem;
+}
+
+/*SECTION 3 MOBILE STYLESs*/
+.section-3 .gallery {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.section-3 .gallery a:first-child{
+  grid-row: 1/1;
+  grid-column: 1/1;
+  grid-template-rows: 0px 0px;
+  }
+.section-3 .gallery a:last-child {
+  display: none;
+}
+
+/*Section footer styling*/
+.section-footer {
+  padding: 2rem 1rem;
+}
+.section-footer .container {
+  display:block;
+}
+.section-footer .form {
+  padding-left: 0rem;
+}
+
 }
