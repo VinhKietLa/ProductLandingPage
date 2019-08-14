@@ -203,9 +203,7 @@ img {
 }
 
 
-/*Media queries*/
-@media(max-width: 375px){
-
+@media screen and (min-device-width:300px) and (max-device-width: 500px){
   /*NAV MOBILE STYLESs*/
 
 .navbar {
@@ -226,7 +224,7 @@ img {
   justify-content: space-around;
 }
 
-/*SECTION 1 MOBILE STYLESs*/
+/*SECTION 1 Plus mobile devices STYLESs*/
 .beltInfo {
   text-align: center;
 }
@@ -288,5 +286,4 @@ img {
 .section-footer .form {
   padding-left: 0rem;
 }
-
 }
