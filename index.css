@@ -27,7 +27,7 @@ img {
 
 /*Nav Bar styling*/
 .container {
-  max-width: 1200px;
+  max-width: 1250px;
   margin:auto;
   overflow:hidden;
   padding: 0 2rem;
@@ -126,6 +126,10 @@ img {
   margin: auto;
   max-width: 860px;
   padding: 5rem;
+  font-size: 1.2rem;
+}
+.red {
+  color:red;
 }
 
 /*Section 3 gallery styling*/
@@ -138,6 +142,7 @@ img {
 .section-3 .gallery {
   display:grid;
   grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 350px 400px;
 }
 
 .section-3 .gallery a:first-child {
@@ -148,11 +153,42 @@ img {
 /*Section footer styling*/
 
 .section-footer {
-  padding: 4rem 0;
+  padding: 4rem 2rem;
+  background-color: #040404;
+  color: white;
 }
-
 .section-footer .container {
   display: grid;
   grid-template-columns: repeat(4,1fr);
   grid-gap: 1rem;
+  text-transform: uppercase;
+  justify-content: space-evenly;
+}
+
+.section-footer a {
+  color: #A2A3A3;
+}
+
+.section-footer .form {
+  padding-left: 1rem;
+}
+
+.form-control input {
+  height:30px;
+  width: 160px;
+  border-radius: 5%;
+  background-color: #868686;
+  margin-bottom: 5px
+}
+::placeholder {
+  color:black;
+  font-weight: bold;
+}
+.container button {
+  color: black;
+  height:30px;
+  width: 100px;
+  border-radius: 5%;
+  background-color: black;
+  color: white;
 }
